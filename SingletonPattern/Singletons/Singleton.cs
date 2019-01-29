@@ -75,6 +75,7 @@ namespace SingletonPattern.Singletons
             Console.WriteLine($"Runtime Statistics:");
             Console.WriteLine($"\t   created: { _creationCount } instances");
             Console.WriteLine($"\t requested: { _requestedCount } instances");
+            Console.ReadKey();
         }
     }
 }
